@@ -1,8 +1,9 @@
-# Project Name
+# Juicy Brick Breaker
+Project 3 for C220
 
-Context and date
+Feb. 22th, 2023
 
-Description
+This is a typical brick breaking game, but with juicy elements that help spice things up a bit! These juicy elements include unique paddles, colorful bricks, music, sounds, and even confetti!
 
 
 ## Implementation
@@ -25,9 +26,10 @@ Which features you included
 
 
 ## References
-
+https://pixabay.com/images/search/ball/
 
 ## Future Development
 
 
 ## Created by
+Jalen Moya
