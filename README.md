@@ -13,8 +13,15 @@ Which features you included
   - Brick Sound
   - Paddle Sound
   - Wall Sound
-  - Wall Color Decay (when hit)
-  - 
+  - Wall Color Decay (When Hit)
+  - Colorful Bricks that Drop in from Top
+  - Bricks Dance Around
+  - Free to Use Main Menu Image (Provided by Pixabay)
+  - Disgusting Comet Trail
+  - Different Paddle with Color Changes (On Hit)
+  - Paddle Bounces Down (When Hit)
+  - Paddle Emits Confetti (When Hit)
+  
 
 
 ## References
