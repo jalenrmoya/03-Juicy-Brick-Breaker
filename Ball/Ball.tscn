@@ -26,4 +26,6 @@ margin_bottom = 10.0
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 1 )
 
+[node name="Tween" type="Tween" parent="."]
+
 [connection signal="body_entered" from="." to="." method="_on_Ball_body_entered"]

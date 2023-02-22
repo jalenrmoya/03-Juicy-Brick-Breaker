@@ -1,11 +1,20 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://UI/Main_Menu.gd" type="Script" id=1]
+[ext_resource path="res://Assets/exercise03c piano.mp3" type="AudioStream" id=2]
+[ext_resource path="res://Assets/ball-ge4d1a8084_1920.jpg" type="Texture" id=3]
 
 [node name="Main_Menu" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 1 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = -662.0
+margin_top = -112.0
+margin_right = 1258.0
+margin_bottom = 1245.0
+texture = ExtResource( 3 )
 
 [node name="Background" type="ColorRect" parent="."]
 anchor_right = 1.0
@@ -16,9 +25,12 @@ color = Color( 0, 0, 0, 0.501961 )
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_bottom = -300.0
-text = "Brick Breaker"
+text = "juicy
+brick
+breaker"
 align = 1
 valign = 1
+uppercase = true
 
 [node name="Play" type="Button" parent="."]
 anchor_left = 0.5
@@ -41,6 +53,11 @@ margin_top = 50.0
 margin_right = 100.0
 margin_bottom = 90.0
 text = "Quit"
+
+[node name="Main_Menu_Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+volume_db = -20.101
+autoplay = true
 
 [connection signal="pressed" from="Play" to="." method="_on_Play_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]
