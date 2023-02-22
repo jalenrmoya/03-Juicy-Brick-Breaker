@@ -8,7 +8,13 @@ Description
 ## Implementation
 
 Which features you included
-Main Menu Music
+  - Main Menu Music
+  - Die Sound
+  - Brick Sound
+  - Paddle Sound
+  - Wall Sound
+  - Wall Color Decay (when hit)
+  - 
 
 
 ## References
